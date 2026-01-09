@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Funnel+Display:wght@300..800&display=swap');
+body {
+  background-color: #faf7ea;
+  color: #0d3b66;
+}
+
+h1, h2 {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  margin: 1rem auto;
+}
+
+p{
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+em, strong {
+  color: #f95738;
+}
+
+img {
+  width: 60%;
+  border-radius: 50%;
+  padding: 2px;
+  border: 6px double #f4d45ebd;
+  margin: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #ee964b;
+}
+
+a:hover {
+  color: #f95738;
+  transition: 0.3s ease-in-out;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+.card {
+  width: 60%;
+  background-color: #fffff6;
+  margin: 2% auto;
+  justify-items: center;
+  border: 1px solid #f4d35e;
+  box-shadow: 10px 10px 10px #0d3b6653;
+}
+
+#intro {
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+#hobbies {
+  padding: 3rem auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+
+  img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+   img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+   img {
+    width: 90%;
+  }
+}
